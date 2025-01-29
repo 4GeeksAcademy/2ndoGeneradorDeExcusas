@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(28, 90, 54, 0.918);
+  margin-top: 300px;
+  font-family: cursive;
+}
+
+div.container {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border: 10px solid #1da701;
+  background-color: rgb(0, 173, 58);
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 20px #04f33f;
+}
+
+div.btttn {
+  border: solid 5px rgb(0, 226, 151);
+  background-color: rgb(7, 156, 99);
+}
